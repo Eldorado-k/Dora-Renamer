@@ -25,7 +25,7 @@ async def start(client, message):
         {"type": "message", "text": " Mᴏɴ ʀêᴠᴇ à ᴍᴏɪ, ᴄ'ᴇsᴛ ᴅᴇ ᴛʀᴏᴜᴠᴇʀ ʟᴇ Oɴᴇ Pɪᴇᴄᴇ ǫᴜᴇʟ ǫᴜ'ᴇɴ sᴏɪᴛ ʟᴇ Pʀɪx💥 ..."},
         {"type": "sticker", "id": "CAACAgQAAxkBAAI5UGhr8-Slyzo23zWEZ1tnjFkpDevvAAKxEQACaFsZUgyBRaS2kd6WHgQ"},  # ID du 2ème sticker
         {"type": "message", "text": " Eᴛ ᴊᴇ ᴅᴇᴠɪᴇɴᴅʀᴀɪ ʟᴇ Rᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs ..."},
-        {"type": "sticker", "id": "CAACAgQAAxkBAAI3VWhpJkh1GJkxjq7ciOKcTHlAQ28BAALkFQACfqTJUVt-EzCZ0Ol6HgQ"}   # ID du 3ème sticker
+        {"type": "sticker", "id": "CAACAgQAAxkBAAI5VGhr9FeRoiJLXb2fojC1I4dVAkGXAAIpEAAC95ooUlcZZo3Owm9CHgQ"}   # ID du 3ème sticker
     ]
     
     # Envoyer et supprimer les éléments un par un
@@ -39,13 +39,13 @@ async def start(client, message):
         await sent_item.delete()
         await asyncio.sleep(0.3)  # Petit délai entre les éléments
     
-    # Envoyer le vrai message de démarrage après la séquence
+    # Ces messages en commentaire, est là pour vous aider à bien comprendre 😜😁. C'est kingcey. j'ai modifié le Renamer bot de codeflix pour donner ceci
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton('⛅ Mɪsᴇs à Jᴏᴜʀ', url='https://t.me/BotZFlix'),
+        InlineKeyboardButton('Mɪsᴇs à Jᴏᴜʀ', url='https://t.me/BotZFlix'),
         InlineKeyboardButton('🌨️ Aɪᴅᴇ', url='https://t.me/BTZF_CHAT')
     ], [
-        InlineKeyboardButton('❄️ À Pʀᴏᴘᴏs', callback_data='about'),
-        InlineKeyboardButton('❗ Aɪᴅᴇ', callback_data='help')
+        InlineKeyboardButton('À Pʀᴏᴘᴏs', callback_data='about'),
+        InlineKeyboardButton('Aɪᴅᴇ', callback_data='help')
     ]])
     
     if Config.START_PIC:

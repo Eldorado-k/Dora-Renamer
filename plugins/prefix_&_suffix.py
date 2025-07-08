@@ -6,64 +6,64 @@ from helper.database import db
 async def add_caption(client, message):
 
     if len(message.command) == 1:
-        return await message.reply_text("**__Give The Prefix__\n\nExᴀᴍᴩʟᴇ:- `/set_prefix @sagato_anime`**")
+        return await message.reply_text("**__Dᴏɴɴᴇᴢ Lᴇ Pʀéғɪxᴇ__\n\nExᴇᴍᴘʟᴇ:- `/set_prefix @Anime_Terr`**")
     prefix = message.text.split(" ", 1)[1]
-    SnowDev = await message.reply_text("Please Wait ...", reply_to_message_id=message.id)
+    Kingcey = await message.reply_text("Vᴇᴜɪʟʟᴇᴢ ᴘᴀᴛɪᴇɴᴛᴇʀ ...", reply_to_message_id=message.id)
     await db.set_prefix(message.from_user.id, prefix)
-    await SnowDev.edit("__**✅ ᴘʀᴇꜰɪx ꜱᴀᴠᴇᴅ**__")
+    await Kingcey.edit("__**✅ Pʀéғɪxᴇ Eɴʀᴇɢɪsᴛʀé**__")
 
 
 @Client.on_message(filters.private & filters.command('del_prefix'))
 async def delete_prefix(client, message):
 
-    SnowDev = await message.reply_text("Please Wait ...", reply_to_message_id=message.id)
+    Kingcey = await message.reply_text("Vᴇᴜɪʟʟᴇᴢ ᴘᴀᴛɪᴇɴᴛᴇʀ ...", reply_to_message_id=message.id)
     prefix = await db.get_prefix(message.from_user.id)
     if not prefix:
-        return await SnowDev.edit("__**😔 ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ᴘʀᴇꜰɪx**__")
+        return await Kingcey.edit("__**😔 Vᴏᴜs N'ᴀᴠᴇᴢ Aᴜᴄᴜɴ Pʀéғɪxᴇ**__")
     await db.set_prefix(message.from_user.id, None)
-    await SnowDev.edit("__**❌️ ᴘʀᴇꜰɪx ᴅᴇʟᴇᴛᴇᴅ**__")
+    await Kingcey.edit("__**❌️ Pʀéғɪxᴇ Sᴜᴘᴘʀɪᴍé**__")
 
 
 @Client.on_message(filters.private & filters.command('see_prefix'))
 async def see_caption(client, message):
 
-    SnowDev = await message.reply_text("Please Wait ...", reply_to_message_id=message.id)
+    Kingcey = await message.reply_text("Vᴇᴜɪʟʟᴇᴢ ᴘᴀᴛɪᴇɴᴛᴇʀ ...", reply_to_message_id=message.id)
     prefix = await db.get_prefix(message.from_user.id)
     if prefix:
-        await SnowDev.edit(f"**ʏᴏᴜʀ ᴘʀᴇꜰɪx:-**\n\n`{prefix}`")
+        await Kingcey.edit(f"**Vᴏᴛʀᴇ Pʀéғɪxᴇ:-**\n\n`{prefix}`")
     else:
-        await SnowDev.edit("__**😔 ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ᴘʀᴇꜰɪx**__")
+        await Kingcey.edit("__**😔 Vᴏᴜs N'ᴀᴠᴇᴢ Aᴜᴄᴜɴ Pʀéғɪxᴇ**__")
 
 
-# SUFFIX
+# SUFFIXE
 @Client.on_message(filters.private & filters.command('set_suffix'))
 async def add_csuffix(client, message):
 
     if len(message.command) == 1:
-        return await message.reply_text("**__Give The Suffix__\n\nExᴀᴍᴩʟᴇ:- `/set_suffix @Sagato_anime`**")
+        return await message.reply_text("**__Dᴏɴɴᴇᴢ Lᴇ Sᴜғғɪxᴇ__\n\nExᴇᴍᴘʟᴇ:- `/set_suffix @Anime_Terr`**")
     suffix = message.text.split(" ", 1)[1]
-    SnowDev = await message.reply_text("Please Wait ...", reply_to_message_id=message.id)
+    Kingcey = await message.reply_text("Vᴇᴜɪʟʟᴇᴢ ᴘᴀᴛɪᴇɴᴛᴇʀ ...", reply_to_message_id=message.id)
     await db.set_suffix(message.from_user.id, suffix)
-    await SnowDev.edit("__**✅ ꜱᴜꜰꜰɪx ꜱᴀᴠᴇᴅ**__")
+    await Kingcey.edit("__**✅ Sᴜғғɪxᴇ Eɴʀᴇɢɪsᴛʀé**__")
 
 
 @Client.on_message(filters.private & filters.command('del_suffix'))
 async def delete_suffix(client, message):
 
-    SnowDev = await message.reply_text("Please Wait ...", reply_to_message_id=message.id)
+    Kingcey = await message.reply_text("Vᴇᴜɪʟʟᴇᴢ ᴘᴀᴛɪᴇɴᴛᴇʀ ...", reply_to_message_id=message.id)
     suffix = await db.get_suffix(message.from_user.id)
     if not suffix:
-        return await SnowDev.edit("__**😔 ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ꜱᴜꜰꜰɪx**__")
+        return await Kingcey.edit("__**😔 Vᴏᴜs N'ᴀᴠᴇᴢ Aᴜᴄᴜɴ Sᴜғғɪxᴇ**__")
     await db.set_suffix(message.from_user.id, None)
-    await SnowDev.edit("__**❌️ ꜱᴜꜰꜰɪx ᴅᴇʟᴇᴛᴇᴅ**__")
+    await Kingcey.edit("__**❌️ Sᴜғғɪxᴇ Sᴜᴘᴘʀɪᴍé**__")
 
 
 @Client.on_message(filters.private & filters.command('see_suffix'))
 async def see_csuffix(client, message):
 
-    SnowDev = await message.reply_text("Please Wait ...", reply_to_message_id=message.id)
+    Kingcey = await message.reply_text("Vᴇᴜɪʟʟᴇᴢ ᴘᴀᴛɪᴇɴᴛᴇʀ ...", reply_to_message_id=message.id)
     suffix = await db.get_suffix(message.from_user.id)
     if suffix:
-        await SnowDev.edit(f"**ʏᴏᴜʀ ꜱᴜꜰꜰɪx:-**\n\n`{suffix}`")
+        await Kingcey.edit(f"**Vᴏᴛʀᴇ Sᴜғғɪxᴇ:-**\n\n`{suffix}`")
     else:
-        await SnowDev.edit("__**😔 ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ꜱᴜꜰꜰɪx**__")
+        await Kingcey.edit("__**😔 Vᴏᴜs N'ᴀᴠᴇᴢ Aᴜᴄᴜɴ Sᴜғғɪxᴇ**__")

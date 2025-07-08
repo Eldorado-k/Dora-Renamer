@@ -21,9 +21,9 @@ async def start(client, message):
     # Liste des stickers et messages intermédiaires
     sequence = [
         {"type": "message", "text": "✨ Sᴀʟᴜᴛ. Jᴇ sᴜɪs Lᴜғғʏ. Lᴇ ᴄʜᴇғ ᴅᴇ ʟ'éǫᴜɪᴘᴀɢᴇ ᴀᴜ ᴄʜᴀᴘᴇᴀᴜ ᴅᴇ ᴘᴀɪʟʟᴇ😁...."},
-        {"type": "sticker", "id": "CAACAgQAAxkBAAI3VWhpJkh1GJkxjq7ciOKcTHlAQ28BAALkFQACfqTJUVt-EzCZ0Ol6HgQ"},  # ID du 1er sticker
+        {"type": "sticker", "id": "CAACAgQAAxkBAAI5Qmhr8zPYWMTtfvRgZoZh7rJhivIMAAKLDgACWE4wUg3rP9wbFJPmHgQ"},  # ID du 1er sticker
         {"type": "message", "text": " Mᴏɴ ʀêᴠᴇ à ᴍᴏɪ, ᴄ'ᴇsᴛ ᴅᴇ ᴛʀᴏᴜᴠᴇʀ ʟᴇ Oɴᴇ Pɪᴇᴄᴇ ǫᴜᴇʟ ǫᴜ'ᴇɴ sᴏɪᴛ ʟᴇ Pʀɪx💥 ..."},
-        {"type": "sticker", "id": "CAACAgQAAxkBAAI3VWhpJkh1GJkxjq7ciOKcTHlAQ28BAALkFQACfqTJUVt-EzCZ0Ol6HgQ"},  # ID du 2ème sticker
+        {"type": "sticker", "id": "CAACAgQAAxkBAAI5UGhr8-Slyzo23zWEZ1tnjFkpDevvAAKxEQACaFsZUgyBRaS2kd6WHgQ"},  # ID du 2ème sticker
         {"type": "message", "text": " Eᴛ ᴊᴇ ᴅᴇᴠɪᴇɴᴅʀᴀɪ ʟᴇ Rᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs ..."},
         {"type": "sticker", "id": "CAACAgQAAxkBAAI3VWhpJkh1GJkxjq7ciOKcTHlAQ28BAALkFQACfqTJUVt-EzCZ0Ol6HgQ"}   # ID du 3ème sticker
     ]

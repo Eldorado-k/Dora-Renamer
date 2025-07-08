@@ -42,7 +42,7 @@ async def start(client, message):
     # Ces messages en commentaire, est là pour vous aider à bien comprendre 😜😁. C'est kingcey. j'ai modifié le Renamer bot de codeflix pour donner ceci
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton('Mɪsᴇs à Jᴏᴜʀ', url='https://t.me/BotZFlix'),
-        InlineKeyboardButton('🌨️ Aɪᴅᴇ', url='https://t.me/BTZF_CHAT')
+        InlineKeyboardButton('Aɪᴅᴇ', url='https://t.me/BTZF_CHAT')
     ], [
         InlineKeyboardButton('À Pʀᴏᴘᴏs', callback_data='about'),
         InlineKeyboardButton('Aɪᴅᴇ', callback_data='help')
@@ -103,7 +103,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.DEV_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("Pᴀʏᴇʀ ʟᴇ Cᴏᴅᴇ Sᴏᴜʀᴄᴇ", url="https://t.me/ZFlixTeamBot")
+                InlineKeyboardButton("Pᴀʏᴇʀ ʟᴇ Cᴏᴅᴇ Sᴏᴜʀᴄᴇ", url="https://t.me/Kingcey")
                 ],[
                 InlineKeyboardButton("🎌 Anime Terr", url="https://t.me/Anime_Terr")
                 ],[

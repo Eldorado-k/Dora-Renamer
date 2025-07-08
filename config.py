@@ -45,16 +45,17 @@ Lᴀ ғᴀçᴏɴ ᴅᴏɴᴛ ᴊᴇ ᴍᴇ sᴀᴄʀɪғɪᴇ ᴘᴏᴜʀ ᴍ�
 
 Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ ᴠᴏs ғɪᴄʜɪᴇʀs, ᴇᴛ Lᴇ ᴘʀᴏᴄʜᴀɪɴ ʀᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs 🏆, ᴄᴇ sᴇʀᴀ Mᴏɪ 🍖.\n\nCréé par ©<a href='t.me/BotZFlix>😜 BotZFlix</a></b>"""
 
-    ABOUT_TXT = """<b>
-║╭━━━━━━━━━━━━━━━ ❱═❍⊱❁۪۪
-║┣⪼📃Mon Nom : {}
-║┣⪼👼Créateur : <a href='t.me/ZFlixteamBot>🇰ιηg¢єу</a>
-║┣⪼🤖Mise à Jour : <a href='t.me/BotZFlix'>BᴏᴛZFʟɪx</a>
-║┣⪼📡 Hébergé Sur: Super Rapide
-║┣⪼🗣️Langage : <a href='python.org'>Python3</a>
-║┣⪼📚 Librairie : <a href='pyrogram.org'>Pyrogram</a>
-║┣⪼🗒️Version : [𝟶.𝟷𝟾.3]
-║╰━━━━━━━━━━━━━━━ ❱═❍⊱❁۪۪</b>"""
+    ABOUT_TXT = """╔════❰ Lᴜғғʏ Rᴇɴᴀᴍᴇʀ Bᴏᴛ ❱═❍⊱❁۪۪
+║╭━━━━━━━━━━━━━━━➣
+║┣⪼📃Mᴏɴ Nᴏᴍ : Lᴜғғʏ Rᴇɴᴀᴍᴇʀ Bᴏᴛ
+║┣⪼👼Cʀᴇᴀᴛᴇᴜʀ : —‌‌‌‌◡‌⃝ㅤ🇰ιηg¢єу
+║┣⪼🤖Mɪsᴇ à Jᴏᴜʀ : BᴏᴛZFʟɪx
+║┣⪼📡 Héʙᴇʀɢᴇʀ Sᴜʀ: Sᴜᴘᴇʀ Fᴀsᴛ
+║┣⪼🗣️Lᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ𝟹
+║┣⪼📚 Lɪʙʀᴀɪʀɪᴇ : Pʏʀᴏɢʀᴀᴍ
+║┣⪼🗒️Vᴇʀsɪᴏɴ : 𝟶.𝟷𝟾.𝟹
+║╰━━━━━━━━━━━━━━━➣
+╚══════════════════❍⊱❁۪۪"""
 
     HELP_TXT = """
 <b><blockquote>Ceci est le Menu d'aide. clique sur ses boutons ci-dessous pour voir l'aide.

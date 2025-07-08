@@ -22,7 +22,7 @@ class Config(object):
 
     # other configs
     BOT_UPTIME = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://envs.sh/Ag8.jpg")
+    START_PIC = os.environ.get("START_PIC", "https://iili.io/F0jp787.md.jpg")
     ADMIN = [int(admin) if id_pattern.search(
         admin) else admin for admin in os.environ.get('ADMIN', '1740287480 7428552084').split()]  # ⚠️ Requis
     
@@ -43,10 +43,10 @@ class Txt(object):
 
 Lᴀ ғᴀçᴏɴ ᴅᴏɴᴛ ᴊᴇ ᴍᴇ sᴀᴄʀɪғɪᴇ ᴘᴏᴜʀ ᴍᴏɴ éǫᴜɪᴘᴀɢᴇ ⚓, Jᴇ ғᴇʀᴀɪ ᴅᴇ ᴍêᴍᴇ ᴘᴏᴜʀ ᴛᴇs ғɪᴄʜɪᴇʀs 📂. Sᴏɪᴛ ᴇɴ sûʀ. Mêᴍᴇ sɪ ᴍᴏɴ ᴇsᴛᴏᴍᴀᴄ ғᴀɪᴛ ᴅᴇs ʙʀᴜɪᴛs ᴅᴇ ᴍᴏᴛᴇᴜʀ, sᴀᴄʜᴇᴢ Qᴜᴇ, 
 
-Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ ᴠᴏs ғɪᴄʜɪᴇʀs, ᴇᴛ Lᴇ ᴘʀᴏᴄʜᴀɪɴ ʀᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs 🏆, ᴄᴇ sᴇʀᴀ Mᴏɪ 🍖.</b>\n\nCréé par ©<a href='t.me/BotZFlix>😜 BotZFlix</a>"""
+Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ ᴠᴏs ғɪᴄʜɪᴇʀs, ᴇᴛ Lᴇ ᴘʀᴏᴄʜᴀɪɴ ʀᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs 🏆, ᴄᴇ sᴇʀᴀ Mᴏɪ 🍖.\n\nCréé par ©<a href='t.me/BotZFlix>😜 BotZFlix</a></b>"""
 
-    ABOUT_TXT = """<b>Bot ❱═❍⊱❁۪۪
-║╭━━━━━━━━━━━━━━━➣
+    ABOUT_TXT = """<b>
+║╭━━━━━━━━━━━━━━━ ❱═❍⊱❁۪۪
 ║┣⪼📃Mon Nom : {}
 ║┣⪼👼Créateur : <a href='t.me/ZFlixteamBot>🇰ιηg¢єу</a>
 ║┣⪼🤖Mise à Jour : <a href='t.me/BotZFlix'>BᴏᴛZFʟɪx</a>
@@ -54,13 +54,13 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ �
 ║┣⪼🗣️Langage : <a href='python.org'>Python3</a>
 ║┣⪼📚 Librairie : <a href='pyrogram.org'>Pyrogram</a>
 ║┣⪼🗒️Version : [𝟶.𝟷𝟾.3]
-║╰━━━━━━━━━━━━━━━➣"""
+║╰━━━━━━━━━━━━━━━ ❱═❍⊱❁۪۪</b>"""
 
     HELP_TXT = """
 <b><blockquote>Ceci est le Menu d'aide. clique sur ses boutons ci-dessous pour voir l'aide.
 
 
-<b>➜ propulsé par :</b> <a href=https://t.me/BotZFlix>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>
+<b>➜ propulsé par :</b> <a href=https://t.me/BotZFlix>BotZFlix</a>
 """
 
     LEG_TXT = """📑 <b><u>Comment configurer une légende personnalisée</u></b>
